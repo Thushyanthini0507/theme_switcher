@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body id="body">
+
+<body>
     <div class="continer">
         <h2>Theme Switcher</h2>
-        <select name="themes-name" id="theme">
+        <select name="theme-name" id="theme-name">
             <option value="light">Light</option>
-            <option value="dark" onchange="theme()">Dark</option>
+            <option value="dark">Dark</option>
             <option value="blue">Blue</option>
             <option value="forest">Forest</option>
         </select>
-        <div class="preview">
+        <div class="small-container">
             <p><b>Preview</b> <br><span>This is how your theme looks.</span></p>
-            <input type="button" value="Example Button">
+            <input type="button" value="Example Button" class="button">
         </div>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>

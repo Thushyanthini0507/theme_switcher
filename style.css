@@ -2,12 +2,62 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     border-top: 20px solid rgb(11, 202, 11);
-    /* background-color: black; */
 }
 
-.dark-mode {
-    background-color: black;
-    color: white;
+body.light {
+    background-color: #f9f9f9;
+    color: #222;
+}
+
+body.light .small-container {
+    background: #f5f2f2;
+}
+
+body.light button {
+    background: #222;
+    color: #fff;
+}
+
+body.dark {
+    background-color: #1e1e1e;
+    color: #f9f9f9;
+}
+
+body.dark .small-container {
+    background: #2c2c2c;
+}
+
+body.dark .button {
+    background: #f9f9f9;
+    color: #222;
+}
+
+body.blue {
+    background-color: #0f2970;
+    color: #e0e7ff;
+}
+
+body.blue .small-container {
+    background: #354e92;
+}
+
+body.blue .button {
+    background: #0c2a8d;
+    color: #fff;
+}
+
+body.forest {
+    background-color: #013829;
+    color: #d1fae5;
+}
+
+body.forest .small-container {
+    background: #046c4e;
+}
+
+body.forest .button {
+    background: #013a2a;
+    color: #fff;
 }
 
 .continer {
@@ -16,18 +66,16 @@ body {
     border-radius: 8px;
     width: 280px;
     padding: 10px;
-    padding-bottom: 10px;
     text-align: center;
 }
 
-.preview {
+.small-container {
     box-shadow: 0px 0px 5px 2px rgba(70, 70, 70, 0.214);
     margin: 10px auto;
     border-radius: 8px;
     width: 200px;
     padding: 10px;
     text-align: center;
-    /* margin-bottom: 10px; */
 }
 
 input {
@@ -42,7 +90,7 @@ span {
     font-size: 13px;
 }
 
-#theme {
+#theme-name {
     width: 220px;
     padding: 10px;
     border-radius: 8px;
